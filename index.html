@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Formulario para Agregar Usuarios</h1>
+    <section class="formulario">
+      <form id="user-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="lastname">Apellido:</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <br>
+        <label for="country">País:</label>
+        <input type="text" id="country" name="country" required>
+        <br>
+        <button type="submit">Agregar Usuario</button>
+      </form>
+    </section>
+
+    <section class="tabla">
+      <table id="table-users">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>País</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Las filas de usuarios se agregarán dinámicamente aquí -->
+        </tbody>
+      </table>
+    </section>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

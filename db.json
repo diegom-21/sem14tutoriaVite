@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1719267809725",
+      "name": "Diego",
+      "lastname": "Moreno",
+      "country": "Perú"
+    },
+    {
+      "id": "1719268021684",
+      "name": "Alex",
+      "lastname": "Sanchez",
+      "country": "Chile"
+    },
+    {
+      "id": "1719268345620",
+      "name": "Thiago",
+      "lastname": "Roberto",
+      "country": "Brasil"
+    },
+    {
+      "id": "1719268824989",
+      "name": "Dario",
+      "lastname": " Benedeto",
+      "country": "Argentina"
+    }
+  ]
+}
